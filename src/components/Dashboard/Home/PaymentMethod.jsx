@@ -44,7 +44,6 @@ const PaymentMethod = ({ startDate, endDate }) => {
       legend: {
         orient: 'vertical',
         left: 'right',
-        left: 'right',
         bottom: 10, 
         data: data.map(item => item.paymentMethod),
       },
